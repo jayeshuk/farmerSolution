@@ -106,7 +106,7 @@ One of our main goal with NativeBase 2.0 is to make it easy to theme the compone
 General Syntax of NativeBase Component:
 
 
-```
+```javascript
 import React, { Component } from 'react';
 import { Container, Button, Text } from 'native-base';
 export default class GeneralExample extends Component {
