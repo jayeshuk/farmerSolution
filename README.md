@@ -8,7 +8,7 @@ Built with React, React Native, JavaScript, and CSS.
 ## App Snapshots
 
 ### Login & Register Screen
-| <img src="https://user-images.githubusercontent.com/46965764/111064399-da4a3c80-84d9-11eb-8b0b-645ba9287cab.jpg"  width="294" height="638"> | <img src="https://user-images.githubusercontent.com/46965764/111064402-ddddc380-84d9-11eb-8b13-9a1b47e94746.jpg"  width="294" height="638"> | <img src="https://user-images.githubusercontent.com/46965764/111065828-be4a9900-84e1-11eb-8651-9a1d73915c8d.jpg"  width="294" height="638"> | 
+| <img src="https://user-images.githubusercontent.com/46965764/111064399-da4a3c80-84d9-11eb-8b0b-645ba9287cab.jpg"  width="294" height="580"> | <img src="https://user-images.githubusercontent.com/46965764/111064402-ddddc380-84d9-11eb-8b13-9a1b47e94746.jpg"  width="294" height="580"> | <img src="https://user-images.githubusercontent.com/46965764/111065828-be4a9900-84e1-11eb-8651-9a1d73915c8d.jpg"  width="294" height="580"> | 
 | :----------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
 | LOGIN | REGISTER | ROLE |
 
@@ -16,14 +16,14 @@ Built with React, React Native, JavaScript, and CSS.
 
 ### Farmer Screens
 
-| <img src="https://user-images.githubusercontent.com/46965764/111064457-21383200-84da-11eb-8c59-2ca3e2250095.jpg"  width="294" height="638"> | <img src="https://user-images.githubusercontent.com/46965764/111065032-948f7300-84dd-11eb-9375-c20162422e1a.jpg"  width="294" height="638"> | <img src="https://user-images.githubusercontent.com/46965764/111064496-504ea380-84da-11eb-8b74-ce7a44161a7e.jpg"  width="294" height="638"> |
+| <img src="https://user-images.githubusercontent.com/46965764/111064457-21383200-84da-11eb-8c59-2ca3e2250095.jpg"  width="294" height="580"> | <img src="https://user-images.githubusercontent.com/46965764/111065032-948f7300-84dd-11eb-9375-c20162422e1a.jpg"  width="294" height="580"> | <img src="https://user-images.githubusercontent.com/46965764/111064496-504ea380-84da-11eb-8b74-ce7a44161a7e.jpg"  width="294" height="580"> |
 | :----------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
 | DASHBOARD | WAREHOUSE DETAILS | GOODS |
 
 
 ### Warehouse Owner Screens
 
-| <img src="https://user-images.githubusercontent.com/46965764/111064511-678d9100-84da-11eb-9e5c-9e344d7eb2d7.jpg"  width="294" height="638"> | <img src="https://user-images.githubusercontent.com/46965764/111064512-69efeb00-84da-11eb-8d9b-4697aa38740c.png"  width="294" height="638"> | <img src="https://user-images.githubusercontent.com/46965764/111064515-6e1c0880-84da-11eb-8c76-07e1e69b5c90.jpg"  width="294" height="638"> |
+| <img src="https://user-images.githubusercontent.com/46965764/111064511-678d9100-84da-11eb-9e5c-9e344d7eb2d7.jpg"  width="294" height="580"> | <img src="https://user-images.githubusercontent.com/46965764/111064512-69efeb00-84da-11eb-8d9b-4697aa38740c.png"  width="294" height="580"> | <img src="https://user-images.githubusercontent.com/46965764/111064515-6e1c0880-84da-11eb-8c76-07e1e69b5c90.jpg"  width="294" height="580"> |
 | :----------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
 | DASHBOARD | WAREHOUSE STATUS | POST NEW SPACE |
 
@@ -78,25 +78,51 @@ React Native is developed and supported by many companies and individual core co
 [e]: https://github.com/facebook/react-native/blob/master/ECOSYSTEM.md
 
 <h2 align="center">
-  <a href="https://akveo.github.io/react-native-ui-kitten/">
-    Kitten UI
+  <a href="https://nativebase.io/">
+    NativeBase
   </a>
 </h2>
 
 <h3 align="center">
-  <a href="https://github.com/akveo/react-native-ui-kitten">Getting Started</a>
+  <a href="https://docs.nativebase.io/docs/GetStarted.html">Getting Started</a>
   <span> · </span>
-  <a href="https://akveo.github.io/react-native-ui-kitten/docs">Learn the Basics</a>
+  <a href="https://docs.nativebase.io/">Learn the Basics</a>
   <span> · </span>
-  <a href="https://eva.design/?utm_campaign=eva_design%20-%20home%20-%20ui_kitten%20docs&utm_source=ui_kitten&utm_medium=referral&utm_content=homepage_based_on_eva_link">Eva Design System</a>
+  <a href="https://docs.nativebase.io/docs/CheatSheet.html">CheatSheet</a>
   <span> · </span>
-  <a href="https://github.com/akveo/kittenTricks">Kitten Tricks</a>
+  <a href="https://docs.nativebase.io/docs/FeaturedApps.html">Featured Apps</a>
   <span> · </span>
+  <a href="https://docs.nativebase.io/docs/Contribute.html">Contribute</a>
+  <span> · </span>
+  <a href="https://docs.nativebase.io/docs/faq/FAQs.html">FAQs</a>
+  <span> · </span>
+  
+  
 </h3>
 
-UI Kitten is a React Native implementation of Eva Design System. It contains a set of general purpose UI components styled in a similar way. You focus on business logic and the Kitten takes care of visual appearance. And the most awesome thing: the themes can be changed in the runtime, without any need of reloading the application.
+NativeBase is a free and open source UI component library for React Native to build native mobile apps for iOS and Android platforms. NativeBase also supports web from version 2.4.1.
+One of our main goal with NativeBase 2.0 is to make it easy to theme the components with very little changes to components themselves.
 
-100% native. Give Kitten UI a try!
+General Syntax of NativeBase Component:
+
+
+```
+import React, { Component } from 'react';
+import { Container, Button, Text } from 'native-base';
+export default class GeneralExample extends Component {
+  render() {
+    return (
+      <Container>
+        <Button>
+          <Text>
+            Button
+          </Text>
+        </Button>
+      </Container>
+    );
+  }
+}
+```
 
 
 ## Updating to New Releases
